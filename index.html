@@ -1,11 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg bg-color">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="Assets/LOGO EZ.png" alt="logoExplicit" width="150" height="100">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                    </ul>
+                    <div class="container cnt-buttons-edit">
+                        <button type="button" class="btn btn-go-to">Go to dashboard</button>
+                        <button type="button" class="btn btn-join-now">Join Now</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section-main">
+            <div class="container-fluid cnt-main">
+                <h1 class="main-text">READY TO JOIN EXPLICIT.?</h1>
+                <img src="Assets/parlantepng.png" alt="Bootstrap" width="350" height="300">
+            </div>
+        </section>
+        <section class="section-main stn-two">
+            <h2 class="section-text">Service</h2>
+            <div class="container-fluid card-cnt">
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/card1.jpeg" class="card-img-top" alt="card1img">
+                    <div class="card-body">
+                      <p class="card-text">Welcome to our music streaming platform! Enjoy seamless access to a vast library of songs spanning various genres and artists.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/card2.jpeg" class="card-img-top" alt="card1img">
+                    <div class="card-body">
+                      <p class="card-text">Discover new music with personalized recommendations and curated playlists tailored to your tastes and moods.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="Assets/card3.jpeg" class="card-img-top" alt="card1img">
+                    <div class="card-body">
+                      <p class="card-text">Join our global community of music enthusiasts. Share your favorite tracks, create playlists, and connect with friends effortlessly across all devices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container-fluid ctn-footer">
+            <p class="footer-text">
+                All rights reserved. © 2024 Explicit. The content of this website is protected by copyright laws. Reproduction in whole or in part without prior written permission is prohibited.
+            </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
